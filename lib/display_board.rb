@@ -2,10 +2,15 @@
 # out the current state.
 
 
-def display_board(board)
+def empty_board()
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
+end 
+  
+
+def display_board(board = empty_board)
+
 end 
