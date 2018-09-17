@@ -11,4 +11,5 @@ def display_board(board)
   puts "   |   |   "
 end 
 
-display_board("O", "", "", "", " ", "", "", "", "")
+display_board("O", " ", " ", " ", " ", " ", " ", " ", " ")
+display_board(" ", " ", " ", " ", "X", " ", " ", " ", " ")
